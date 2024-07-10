@@ -49,7 +49,6 @@ nav{
   margin-bottom: 30px;
   margin-top: 20px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  /* background-color: blue; */
 }
 
 
@@ -76,7 +75,6 @@ nav .links a{
   font-weight: bold;
   color: white;
   text-decoration: none;
-  /* margin: 20px; */
 }
 
 
@@ -107,12 +105,7 @@ nav .icon-burger .line{
 
 
 @media screen and (max-width:768px){
-  /* nav{
-      /* background-color: rgba(0,0,0,.008); */
-      /* background-color: black;
-      height: 40px;
-      width: 45px;
-  } */ */
+
 
   nav .links a{
     display:block;
@@ -123,7 +116,6 @@ nav .icon-burger .line{
     color: white;
     text-decoration: none;
     border: none;
-    /* margin: 20px; */
 }
 
 
@@ -165,11 +157,7 @@ nav .icon-burger .line{
 
 
   nav .icon-burger .line{
-      /* width: 30px;
-      height: 5px; */
       background-color: white;
-      /* margin: 5px;
-      border-radius: 3px; */
   }
 }
 
@@ -315,9 +303,6 @@ nav .icon-burger .line{
   margin-top: 20px;
 }
 .working--man--img{
-  /* position: relative;
-  top: 40px;
-  left: 50px; */
   height: 300px;
   display: flex;
   width: 400px;
@@ -364,7 +349,6 @@ nav .icon-burger .line{
   display: flex;
   flex-direction: row;
   gap: 40px;
-  /* margin-left: 70px; */
 }
 .boxes{
   width: 300px;
@@ -375,7 +359,6 @@ nav .icon-burger .line{
 }
 .circles{
   display: flex;
-  /* margin: 10px; */
   height: 80px;
   width: 80px;
   border-radius: 100%;
@@ -387,7 +370,6 @@ nav .icon-burger .line{
   display: flex;
   flex-direction: row;
   gap: 40px;
-  /* margin-left: 250px; */
   margin-top: 40px;
 }
 
@@ -420,11 +402,7 @@ nav .icon-burger .line{
   text-align: left;
 }
 
-/* .pentagon{
-  position: relative;
-  right: 500px;
-  top: 50px;
-} */
+
 
 
 
@@ -434,11 +412,9 @@ nav .icon-burger .line{
 .Vector_2{
   height: 500px;
   width: 100%;
-  /* position: relative; */
 }
 
 .section--two--items{
-  /* padding: 50px; */
   position: absolute;
   top: 81rem;
   width: 100%;
@@ -514,7 +490,6 @@ nav .icon-burger .line{
 
 .time{
   height: 50px;
-  /* width: 300px; */
   width: 400px;
   text-align: left;
 }
@@ -554,8 +529,6 @@ nav .icon-burger .line{
   width: 40px;
   height: 40px;
   position: absolute;
-  /* top: 0;
-  right: 0; */
   border-radius: 100px 100px 0 0;
   background-color: white;
   display: flex;
@@ -572,8 +545,6 @@ nav .icon-burger .line{
   left: 23.2rem;
   bottom: 0px;
   top: 116.2rem;
-  /* bottom: 200px; */
-  /* top: 220px; */
 }
 
 
@@ -581,14 +552,12 @@ nav .icon-burger .line{
   left: 46.3rem;
   bottom: 0px;
   top: 116.2rem;
-  /* bottom: 460px; */
 }
 
 .sc2{
   left: 69.4rem;
   bottom: 0px;
   top: 116.2rem;
-  /* bottom: 460px; */
 }
 
 .review--section{
@@ -630,7 +599,6 @@ nav .icon-burger .line{
 }
 
 .fifth--section--items{
-  /* padding: 50px; */
   position: absolute;
   width: 100%;
   height: 70%;
@@ -685,11 +653,9 @@ nav .icon-burger .line{
   height: 380px;
   display: flex;
   position: relative;
-  /* flex-direction: column; */
   background-color: black;
   color: white;
   justify-content: center;
-  /* align-items: center; */
 }
 .space{
   display: flex;
@@ -1062,11 +1028,9 @@ nav .icon-burger .line{
   width: 100%;
   position: absolute;
   top: 160rem;
-  /* position: relative; */
 }
 
 .section--two--items{
-  /* padding: 50px; */
   position: absolute;
   top: 180rem;
   width: 100%;
@@ -1120,7 +1084,6 @@ nav .icon-burger .line{
 
 .texts{
   font-size: 13px;
-  /* position: relative; */
   bottom: 20px;
 }
 
@@ -1167,8 +1130,6 @@ nav .icon-burger .line{
   width: 40px;
   height: 40px;
   position: absolute;
-  /* top: 0;
-  right: 0; */
   border-radius: 100px 100px 0 0;
   background-color: white;
   display: flex;
@@ -1184,31 +1145,23 @@ nav .icon-burger .line{
 .sc0{
   left: 19.7rem;
   top: 80px;
-  /* bottom: 200px; */
-  /* top: 220px; */
 }
 
 
 .sc1{
   left: 19.7rem;
-  /* bottom: 0px; */
   top: 20rem;
-  /* bottom: 460px; */
 }
 
 .sc2{
   left: 19.7rem;
-  /* bottom: 0px; */
   top: 34rem;
-  /* bottom: 460px; */
 }
 
 .review--section{
   display: flex;
   flex-direction: column;
   gap: 80px;
-  /* position: relative;
-  top: 170rem; */
   justify-content: center;
   align-items: center;
 }
@@ -1219,8 +1172,6 @@ nav .icon-burger .line{
 }
 
 .numbers{
-  /* position: relative;
-  top: 180rem; */
   margin-top: 15rem;
   display: flex;
   justify-content: center;
@@ -1265,7 +1216,6 @@ nav .icon-burger .line{
 }
 
 .fifth--section--items{
-  /* padding: 50px; */
   position: absolute;
   width: 100%;
   height: 70%;
@@ -1346,7 +1296,6 @@ nav .icon-burger .line{
   color: white;
   gap: 20px;
   justify-content: center;
-  /* align-items: center; */
 }
 
 .roguetechdev{
