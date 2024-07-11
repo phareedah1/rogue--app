@@ -92,14 +92,11 @@ nav .icon-burger{
 }
 
 nav .icon-burger .line{
-  position: relative;
-  bottom: 15px;
   width: 30px;
   height: 5px;
   background-color: white;
   margin: 5px;
   border-radius: 3px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .check{
@@ -976,14 +973,17 @@ nav .icon-burger .line{
   .working--container{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 400px;
   }
   .working--man--img{
     height: 150px;
     display: flex;
     width: 300px;
     position: absolute;
-    bottom: 26rem;
+    /* justify-self: center;
+    align-self: center; */
+    /* bottom: 26rem; */
   }
 
 /* first stop */
@@ -1146,19 +1146,19 @@ nav .icon-burger .line{
 }
 
 .sc0{
-  left: 18.5rem;
-  top: 80.3px;
+  left: 19.7rem;
+  top: 80px;
 }
 
 
 .sc1{
-  left: 18.5rem;
-  top: 20.3rem;
+  left: 19.7rem;
+  top: 20rem;
 }
 
 .sc2{
-  left: 18.5rem;
-  top: 34.3rem;
+  left: 19.7rem;
+  top: 34rem;
 }
 
 .review--section{
@@ -1219,10 +1219,11 @@ nav .icon-burger .line{
 }
 
 .fifth--section--items{
+  margin-top: 80px;
   position: absolute;
   width: 100%;
   height: 70%;
-  top: 295rem;
+  top: 290rem;
   left: 0;
   display: flex;
   flex-direction: column;
@@ -1387,3 +1388,276 @@ nav .icon-burger .line{
   top: 18px;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 428px) and (max-height: 932px){
+  /* first css start*/
+  
+  
+    .Vector_1{
+      height: 150px;
+      width: 100%;
+      position: relative;
+    }
+  
+    .Vector_20{
+      height: 640px;
+      width: 100%;
+      display: flex;
+      position: relative;
+      top: 170px;
+    }
+  
+    
+  
+    .section--one--items{
+      width: 70%;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .section--onetxt{
+      color: white;
+      width: 400px;
+      height: 550px;
+      top: 27rem;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    .txt--one{
+      font-size: 10px;
+    }
+  
+    .txt--two{
+      margin-left: 80px;
+      font-size: 40px;
+      font-weight: bolder;
+  
+    }
+  
+    .txt--three{
+      margin-left: 30px;
+      font-size:15px;
+      text-align: left;
+      position: relative;
+    }
+  
+    .getstarted--btn{
+      height: 60px;
+      width: 150px;
+      border-radius: 5px;
+      border: none;
+      background-color: #0B03F7;
+      color: white;
+    }
+  
+    .working--container{
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      margin-bottom: 650px;
+    }
+    .working--man--img{
+      height: 150px;
+      display: flex;
+      width: 300px;
+      position: absolute;
+      /* justify-self: center;
+      align-self: center; */
+      /* bottom: 26rem; */
+    }
+  
+  /* first stop */
+  
+  
+  /* fourth start */
+  
+  .fourth--section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 180rem;
+  }
+  
+  .satisfiedcliens{
+    text-align: center;
+  }
+  
+  .rectangleee {
+    position: relative;
+    top: 50px;
+    height:120px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  .semicircle {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 100px 100px 0 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .review{
+    font-size: 10px;
+  }
+  
+  .sc0{
+    left: 19.7rem;
+    top: 80px;
+  }
+  
+  
+  .sc1{
+    left: 19.7rem;
+    top: 20rem;
+  }
+  
+  .sc2{
+    left: 19.7rem;
+    top: 34rem;
+  }
+  
+  .review--section{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fa-quote-left{
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  
+  .numbers{
+    margin-top: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .individual--num{
+    width: 100px;
+    height: 50px;
+  }
+  
+  
+  
+
+  
+  
+  /* fifth start */
+  
+  .Vector_3{
+    top: 190rem;
+    height: 300px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .fifth--section--items{
+    margin-top: 10px;
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 290rem;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .empower{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .schedule--btn{
+    background-color: #0B03F7;
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  
+
+  }
+  
