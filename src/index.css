@@ -902,7 +902,8 @@ nav .icon-burger .line{
 
 
 
-@media only screen and (max-width:767px){
+/* @media only screen and (max-width:767px){ */
+@media (max-width: 480px){
 /* first css start*/
 
 
@@ -1145,6 +1146,7 @@ nav .icon-burger .line{
   background-color: white;
   display: flex;
   justify-content: center;
+  left: 18.3rem;
   align-items: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -1155,22 +1157,14 @@ nav .icon-burger .line{
 
 .sc0{
   top: 80px;
-  left: 20.3rem ;
-  position: absolute;
-  /* left: 19.7rem;
-  top: 80px; */
 }
 
 
 .sc1{
-  left: 20.3rem ;
-  position: absolute;
   top: 20rem;
 }
 
 .sc2{
-  left: 20.3rem ;
-  position: absolute;
   top: 34rem;
 }
 
@@ -1232,7 +1226,6 @@ nav .icon-burger .line{
 }
 
 .fifth--section--items{
-  margin-top: 80px;
   position: absolute;
   width: 100%;
   height: 70%;
@@ -1403,63 +1396,7 @@ nav .icon-burger .line{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 460px) and (min-width: 390px){
+@media (max-width: 640px){
   .sc0{
     left: 19.7rem;
     top: 80px;
@@ -1475,28 +1412,105 @@ nav .icon-burger .line{
     left: 19.7rem;
     top: 34rem;
   }
-  
-  
-  
-  
+}
+
+
+  @media (max-width: 360px){
+    .sc0{
+      left: 18rem;
+      top: 80px;
+    }
+    
+    
+    .sc1{
+      left: 18rem;
+      top: 20rem;
+    }
+    
+    .sc2{
+      left: 18rem;
+      top: 34rem;
+    }
+
+    
+  }
 
   
-  
-  /* fifth start */
-  
-  .fifth--section--items{
-    margin-top: 10px;
-    position: absolute;
-    width: 100%;
-    height: 70%;
-    top: 290rem;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
+  @media (max-width: 430px){
+    .sc0{
+      left: 20.3rem;
+      top: 80px;
+    }
+    
+    
+    .sc1{
+      left: 20.3rem;
+      top: 20rem;
+    }
+    
+    .sc2{
+      left: 20.3rem;
+      top: 34rem;
+    }
 
+    .fifth--section--items{
+      position: absolute;
+      margin-top: 10px;
+    }
+    
   }
+
+
+  @media (max-width: 375px){
+    .sc0{
+      left: 18rem;
+      top: 80px;
+    }
+    
+    
+    .sc1{
+      left: 18rem;
+      top: 20rem;
+    }
+    
+    .sc2{
+      left: 18rem;
+      top: 34rem;
+    }
+
+    .fifth--section--items{
+      position: absolute;
+      margin-top: 30px;
+    }
+    
+  }
+
+
+
+  @media (max-width: 390px){
+    .sc0{
+      left: 19rem;
+      top: 80px;
+    }
+    
+    
+    .sc1{
+      left: 19rem;
+      top: 20rem;
+    }
+    
+    .sc2{
+      left: 19rem;
+      top: 34rem;
+    }
+
+    .fifth--section--items{
+      position: absolute;
+      margin-top: 20px;
+    }
+    
+  }
+
+
+  
   
