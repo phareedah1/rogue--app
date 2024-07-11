@@ -971,16 +971,24 @@ nav .icon-burger .line{
   }
 
   .working--container{
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    position: absolute;
     display: flex;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 400px;
   }
   .working--man--img{
-    height: 150px;
+      height: 150px;
+      display: flex;
+      width: 300px;
+      position: absolute;
+    /* height: 150px;
     display: flex;
     width: 300px;
-    position: absolute;
+    position: absolute; */
     /* justify-self: center;
     align-self: center; */
     /* bottom: 26rem; */
@@ -1146,18 +1154,23 @@ nav .icon-burger .line{
 }
 
 .sc0{
-  left: 19.7rem;
   top: 80px;
+  left: 20.3rem ;
+  position: absolute;
+  /* left: 19.7rem;
+  top: 80px; */
 }
 
 
 .sc1{
-  left: 19.7rem;
+  left: 20.3rem ;
+  position: absolute;
   top: 20rem;
 }
 
 .sc2{
-  left: 19.7rem;
+  left: 20.3rem ;
+  position: absolute;
   top: 34rem;
 }
 
@@ -1446,133 +1459,7 @@ nav .icon-burger .line{
 
 
 
-@media only screen and (max-width: 428px) and (max-height: 932px){
-  /* first css start*/
-  
-  
-    .Vector_1{
-      height: 150px;
-      width: 100%;
-      position: relative;
-    }
-  
-    .Vector_20{
-      height: 640px;
-      width: 100%;
-      display: flex;
-      position: relative;
-      top: 170px;
-    }
-  
-    
-  
-    .section--one--items{
-      width: 70%;
-      display: flex;
-      flex-direction: column-reverse;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .section--onetxt{
-      color: white;
-      width: 400px;
-      height: 550px;
-      top: 27rem;
-      position: absolute;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  
-    }
-  
-    .txt--one{
-      font-size: 10px;
-    }
-  
-    .txt--two{
-      margin-left: 80px;
-      font-size: 40px;
-      font-weight: bolder;
-  
-    }
-  
-    .txt--three{
-      margin-left: 30px;
-      font-size:15px;
-      text-align: left;
-      position: relative;
-    }
-  
-    .getstarted--btn{
-      height: 60px;
-      width: 150px;
-      border-radius: 5px;
-      border: none;
-      background-color: #0B03F7;
-      color: white;
-    }
-  
-    .working--container{
-      display: flex;
-      justify-content: center;
-      margin-top: 50px;
-      margin-bottom: 650px;
-    }
-    .working--man--img{
-      height: 150px;
-      display: flex;
-      width: 300px;
-      position: absolute;
-      /* justify-self: center;
-      align-self: center; */
-      /* bottom: 26rem; */
-    }
-  
-  /* first stop */
-  
-  
-  /* fourth start */
-  
-  .fourth--section{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 180rem;
-  }
-  
-  .satisfiedcliens{
-    text-align: center;
-  }
-  
-  .rectangleee {
-    position: relative;
-    top: 50px;
-    height:120px;
-    width: 300px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-    padding: 15px;
-  }
-  
-  .semicircle {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    border-radius: 100px 100px 0 0;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  .review{
-    font-size: 10px;
-  }
-  
+@media (max-width: 460px) and (min-width: 390px){
   .sc0{
     left: 19.7rem;
     top: 80px;
@@ -1589,31 +1476,6 @@ nav .icon-burger .line{
     top: 34rem;
   }
   
-  .review--section{
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .fa-quote-left{
-    font-size: 20px;
-    margin-bottom: 0;
-  }
-  
-  .numbers{
-    margin-top: 15rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .individual--num{
-    width: 100px;
-    height: 50px;
-  }
   
   
   
@@ -1621,13 +1483,6 @@ nav .icon-burger .line{
   
   
   /* fifth start */
-  
-  .Vector_3{
-    top: 190rem;
-    height: 300px;
-    width: 100%;
-    position: relative;
-  }
   
   .fifth--section--items{
     margin-top: 10px;
@@ -1641,22 +1496,6 @@ nav .icon-burger .line{
     justify-content: center;
     align-items: center;
   }
-  
-  .empower{
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
-  }
-  
-  .schedule--btn{
-    background-color: #0B03F7;
-    color: white;
-    width: 250px;
-    height: 50px;
-    border-radius: 5px;
-    border: none;
-  }
-  
   
 
   }
