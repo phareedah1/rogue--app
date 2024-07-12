@@ -972,7 +972,7 @@ nav .icon-burger .line{
   }
 
   .working--container{
-    top: 15%;
+    top: 17%;
     left: 50%;
     transform: translate(-50%, -50%);  
     position: absolute;
@@ -1452,16 +1452,14 @@ nav .icon-burger .line{
       left: 20.3rem;
       top: 34rem;
     }
-
     /* .fifth--section--items{
-      position: absolute;
-      margin-bottom: 50px;
+      top: 250rem;
     } */
-    
+
   }
 
 
-  @media (max-width: 375px){
+  @media (max-width: 478px){
     .sc0{
       left: 18rem;
       top: 80px;
@@ -1479,8 +1477,7 @@ nav .icon-burger .line{
     }
 
     .fifth--section--items{
-      position: absolute;
-      top: 289rem;
+      top: 288rem;
     }
     
   }
@@ -1505,8 +1502,7 @@ nav .icon-burger .line{
     }
 
     /* .fifth--section--items{
-      position: absolute;
-      margin-bottom: 20px;
+      top: 270rem;
     } */
     
   }
